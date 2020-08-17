@@ -36,7 +36,8 @@
 			"logo",
 			"header-spacer",
 			"search-bar",
-			"minicart"
+			"minicart",
+			"login"
 		],
 	
 		"props": {
