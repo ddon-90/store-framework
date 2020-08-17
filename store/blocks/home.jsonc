@@ -2,7 +2,8 @@
   "store.home": {
     "blocks": [
       "responsive-layout.desktop#desktop",
-      "responsive-layout.mobile#mobile"
+      "responsive-layout.mobile#mobile",
+      "shelf"
     ]
   },
 
@@ -49,6 +50,23 @@
         "url": "/small-appliances/coffee-makers"
       } ,
       "alt": "Coffee Makers Collection"
+    }
+  },
+
+  "shelf": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "category": 0,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Top sellers"
+      }
     }
   }
 }
